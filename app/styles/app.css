@@ -1,0 +1,13 @@
+.my-canvas {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 640px;
+}
+
+.controls-container {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 640px;
+}

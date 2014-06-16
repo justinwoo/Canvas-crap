@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CanvasCrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/canvas-crap.css">
+  </head>
+  <body>
+    <script>
+      window.CanvasCrapENV = {{ENV}};
+      window.EmberENV = window.CanvasCrapENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/canvas-crap.js"></script>
+    <script>
+      window.CanvasCrap = require('canvas-crap/app')['default'].create(CanvasCrapENV.APP);
+    </script>
+  </body>
+</html>
