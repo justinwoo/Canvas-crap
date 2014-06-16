@@ -6,6 +6,8 @@ Canvas-crap, a crappy test of using canvas within an Ember.js Component!
 
 Maybe I'll write about this on qiita and put it up.
 
+JSBin demo: http://emberjs.jsbin.com/rerak/1
+
 ## Installation
 
 * `git clone` this repository
